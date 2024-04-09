@@ -60,7 +60,9 @@ const NavLinks = () => {
           <div className="ellipse-parent">
             <div className="frame-child" />
             <div className="mask-group">
-              <div className="rectangle-parent">
+              <img className="about-us-icon" alt="" src="/about-us@2x.png" />
+            </div>
+            <div className="rectangle-parent">
                 <div className="frame-item" />
                 <div className="k-candidates-hired-container">
                   <p className="k">
@@ -73,8 +75,6 @@ const NavLinks = () => {
                   <img className="vector-icon6" alt="" src="/vector-4.svg" />
                 </button>
               </div>
-              <img className="about-us-icon" alt="" src="/about-us@2x.png" />
-            </div>
           </div>
           <div className="power-up-your-container">
             <p className="power-up-your">Power Up Your Hiring</p>

@@ -11,7 +11,13 @@ const WhatDoINeedToDoToMakeT = () => {
           src="/microsoft-1.svg"
         />
       </div>
-      <div className="google-2015-1-wrapper">
+      
+<div className="data-aggregator1">
+        <div className="hire-for-1000-brands-includin-wrapper">
+          <div className="hire-for-1000">Hire for 1000+ Brands Including</div>
+        </div>
+        <div className="logic-operator">
+        <div className="google-2015-1-wrapper">
         <img className="google-2015-1-icon" alt="" src="/google2015-1.svg" />
       </div>
       <div className="kisspng-amazon-com-logo-brand-wrapper">
@@ -22,11 +28,6 @@ const WhatDoINeedToDoToMakeT = () => {
           src="/kisspngamazoncomlogobrandamazonprimevideoproductamazonoffersboatbassheads225inearsuperex5b816a4424cdd5-1@2x.png"
         />
       </div>
-      <div className="data-aggregator1">
-        <div className="hire-for-1000-brands-includin-wrapper">
-          <div className="hire-for-1000">Hire for 1000+ Brands Including</div>
-        </div>
-        <div className="logic-operator">
           <div className="kisspng-nokia-networks-logo-ny-wrapper">
             <img
               className="kisspng-nokia-networks-logo-ny-icon"
@@ -44,9 +45,7 @@ const WhatDoINeedToDoToMakeT = () => {
               src="/microsoft-1.svg"
             />
           </div>
-        </div>
-      </div>
-      <div className="google-2015-2-wrapper">
+          <div className="google-2015-2-wrapper">
         <img className="google-2015-2-icon" alt="" src="/google2015-1.svg" />
       </div>
       <div className="kisspng-amazon-com-logo-brand-container">
@@ -65,6 +64,9 @@ const WhatDoINeedToDoToMakeT = () => {
           src="/kisspngnokianetworkslogonysenokbusiness5b3983e37d3eb2-2@2x.png"
         />
       </div>
+        </div>
+ </div>
+     
     </div>
   );
 };

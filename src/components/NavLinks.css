@@ -643,22 +643,65 @@
   color: #eee5ff;
   font-family: Poppins;
 }
+
+ 
 @media screen and (max-width: 1125px) {
   .talent-finder-parent {
     display: flex;
     flex-wrap: wrap;
   }
 }
+
 @media screen and (max-width: 825px) {
+  .nav-links {
+    height: 1400px;
+    gap: 26px 104px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
   .talent-finder-parent {
     gap: 32px 16px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
   }
+.input-box{
+display: flex;
+-ms-flex-align:start ;
+
+}
+
+.about-us-icon{
+  width: 400px;
+  height: 350px;
+  justify-content: flex-start;
+}
+.rectangle-parent{
+  position: relative;
+  top: 250px;
+  left: -300px;
+}
   .mask-group{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+    left: -450px;
+    top: 330px;
+    size: 200px;
    }
+   .rectangle-container{
+    position: relative;
+    top: 400px;
+
+   }
+  
    
   .image-handler-parent,
 .simple-button-parent,
@@ -666,6 +709,7 @@
     gap: 36px 18px;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .power-up-your-container {
     font-size: 38px;

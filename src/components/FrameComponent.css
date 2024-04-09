@@ -344,6 +344,8 @@
   .hero-wrapper {
     box-sizing: border-box;
   }
+
+
   .hero {
     padding-top: 70px;
     padding-bottom: 103px;
@@ -366,9 +368,12 @@
   .frequently-asked-questions-container {
     font-size: 34px;
   }
+
   .hero,
   .hero-wrapper {
     box-sizing: border-box;
+    width: 100%;
+
   }
   .hero {
     padding-top: 45px;
